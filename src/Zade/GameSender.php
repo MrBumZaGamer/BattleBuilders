@@ -356,12 +356,12 @@ class GameSender extends PluginTask {
                                                                             $pl->getInventory()->setItem(4,Item::get(159,13,1));
                                                                             $pl->getInventory()->setItem(5,Item::get(159,11,1));
                                                                             $pl->getInventory()->setItem(6,Item::get(159,4,1));
-                                                                            $pl->getInventory()->setHotbarSlotIndex(1, 159);
-                                                                            $pl->getInventory()->setHotbarSlotIndex(2, 159);
-                                                                            $pl->getInventory()->setHotbarSlotIndex(3, 159);
-                                                                            $pl->getInventory()->setHotbarSlotIndex(4, 159);
-                                                                            $pl->getInventory()->setHotbarSlotIndex(5, 159);
-                                                                            $pl->getInventory()->setHotbarSlotIndex(6, 159);
+                                                                            $pl->getInventory()->setItemInHand(Item:;get(159,14,1));
+                                                                            $pl->getInventory()->setItemInHand(Item::get(159,6,1));
+                                                                            $pl->getInventory()->setItemInHand(Item::get(159,5,1));
+                                                                            $pl->getInventory()->setItemInHand(Item::get(159,13,1));
+                                                                            $pl->getInventory()->setItemInHand(Item::get(159,13,1));
+                                                                            $pl->getInventory()->setItemInHand(Item::get(159,13,1));
                                                                             $points->set($pl->getName(), 0);
                                                                             $points->save();
                                                                         }
